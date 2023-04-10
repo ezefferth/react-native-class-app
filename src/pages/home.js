@@ -14,11 +14,11 @@ export default function HomeScreen() {
     <View style={styles.container}>
       <Text>Tela Home</Text>
 
-      <ButtonNavigate 
-      navigation={navigation}
-      location="Config"
-      
-      >Configurações</ButtonNavigate>
+      <ButtonNavigate
+        navigation={navigation}
+        location="ActivityScreen"
+
+      >Atividades</ButtonNavigate>
     </View>
   )
 }
